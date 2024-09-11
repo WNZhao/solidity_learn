@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "enumTest",
+				"outputs": [
+					{
+						"internalType": "enum BasicType.OrderState",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testInt",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"BasicType.sol": "BasicType"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"BasicType.sol": {
+			"keccak256": "0x2c111fa1c2d3530cfefe3198e31962933cc9731522aabfff66ead71e88e7668b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://45c87a09d60d69fd90a66811a9fe869fc8cb48bb6fd8e8fc2081ccbc5b6acf87",
+				"dweb:/ipfs/QmbjXjSPR78QokVLaCan43Drhxo4NVbyEwG5quSQYRMWVc"
+			]
+		}
+	},
+	"version": 1
+}

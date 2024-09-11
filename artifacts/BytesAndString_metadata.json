@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "testStringAndBytes",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"BytesAndString.sol": "BytesAndString"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"BytesAndString.sol": {
+			"keccak256": "0xb9bccaf5ba7dc64f159e19db91eddfd29816fb1e053d0cd2b6e7be61d7146ceb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c9eb0c1c195963eff017393f509422469db91f09f8208975ab6673b81e921361",
+				"dweb:/ipfs/QmWs4fGHpPZBUXnn84jDF1aQpAvqruht3vxqMvSBjN528j"
+			]
+		}
+	},
+	"version": 1
+}
