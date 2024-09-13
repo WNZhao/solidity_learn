@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/FunctionCallSameFile.sol": "FunctionCallSameFile"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/FunctionCallSameFile.sol": {
+			"keccak256": "0x4f980349d8f9456e60681cd7de3a3bd76a12b0d541efd956f3cd591bab01f448",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://68fafa08aa594b2d47bd48b0ed7d01abe27b63b7d4f82fe7c424c5a0a5b67e7c",
+				"dweb:/ipfs/QmSC2SRk6kQYs5FBsucVQPAjWLe8ZdMQeWVmaNCFsAp1mM"
+			]
+		}
+	},
+	"version": 1
+}

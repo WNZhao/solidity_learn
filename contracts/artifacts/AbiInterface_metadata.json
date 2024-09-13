@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"name": "setX",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/AbiInterface.sol": "AbiInterface"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AbiInterface.sol": {
+			"keccak256": "0x54b5ddfe9f8d4e0cb00c4d6500a7a44a3368ce5a268f10f6942fa3c9da8a5ebd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://272528ad090fba50c495848698f26ab804c1a9b930defbc9310c359551ebc3e4",
+				"dweb:/ipfs/QmRiCg4E3gPZTVGXqxfYU7gNq73oCoiteD9yqKiziQN1ix"
+			]
+		}
+	},
+	"version": 1
+}
