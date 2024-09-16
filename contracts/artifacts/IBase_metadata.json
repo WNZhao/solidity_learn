@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "foo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/3-polymorphism.sol": "IBase"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/3-polymorphism.sol": {
+			"keccak256": "0xae346a85738fd14621351b4e5974da89231429c86389bcb719479d0b296e1fc0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e847e70f7a20a35b68fc623cf803e485e2ffc1366be53bec76d62545066efbe8",
+				"dweb:/ipfs/QmR2hD7tDV4Kp2RimczrHJPYdyHCwGJUS8G7hhQSUH73mo"
+			]
+		}
+	},
+	"version": 1
+}
