@@ -1,0 +1,60 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "doubleNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "resetNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"poke/NumberModifier.sol": "NumberModifier"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"poke/NumberModifier.sol": {
+			"keccak256": "0x635ef458bd09dbaff8b5b29c8033492b7c2b8f2d1be60f22d618f9fe303fbd03",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e2326eabdb354b285ab81860cc515d2edfd1ac8ccf7d063e5f673d7211bf43ab",
+				"dweb:/ipfs/QmfJBYzvmkKid4Q34EK5setCMar1TdiXGzNmjN8AKyyYSu"
+			]
+		}
+	},
+	"version": 1
+}
