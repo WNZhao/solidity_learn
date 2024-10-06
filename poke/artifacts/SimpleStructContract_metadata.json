@@ -1,0 +1,104 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "newString",
+						"type": "string"
+					}
+				],
+				"name": "modifyString",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myStruct",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "myString",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "externalNumbers",
+						"type": "uint256[]"
+					}
+				],
+				"name": "readNumbers",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "newNumbers",
+						"type": "uint256[]"
+					}
+				],
+				"name": "setNumbers",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"poke/SimpleStructContract.sol": "SimpleStructContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"poke/SimpleStructContract.sol": {
+			"keccak256": "0x6c5a384a5135e23c87d0096210c151245a052fd494fedd81ad59aae362ae9282",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d98f9fa69417c757796cfb434cc514ec048261d4a6120697013645f65e4cd42c",
+				"dweb:/ipfs/QmY7KFw5zLCWBvbX22sMdUD9Cifef8ag2ndHFLeY2nEC4e"
+			]
+		}
+	},
+	"version": 1
+}
